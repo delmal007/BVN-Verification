@@ -100,7 +100,8 @@ class AuthController extends Controller
             return redirect()->route('dashboard')->withErrors($validator)->withInput();
         }
 
-        $apiKey = "SXFn2GA8.HwmyddDZkgmSdODrmtkHu1TwqPpagnKZ5PPE";
+        // Get the API key from the .env file.
+        $apiKey = env('YOUVERIFY_API_KEY');
         $apiUrl = "https://api.sandbox.youverify.co/v2/api/identity/ng/bvn";
         $postData = [
             'id' => $bvn,
