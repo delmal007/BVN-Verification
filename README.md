@@ -19,6 +19,29 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
+# BVN Verification App
+
+This app allows users to verify their BVNs using the YouVerify API.
+
+## Getting Started
+
+To get started, you will need to:
+
+1. Install the Laravel framework.
+2. Clone this repository.
+3. Create a `.env` file and configure the YouVerify API key.
+4. Run the `composer install` command.
+5. Run the `npm install` command.
+6. Run the `npm run dev` command.
+7. Run the `php artisan serve` command to start the app.
+
+## Usage
+
+To verify a BVN, you can do the following:
+
+1. Register an Account
+2. Verify BVN
+
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Learning Laravel
