@@ -27,13 +27,12 @@ This app allows users to verify their BVNs using the YouVerify API.
 
 To get started, you will need to:
 
-1. Install the Laravel framework.
-2. Clone this repository.
-3. Create a `.env` file and configure the YouVerify API key.
-4. Run the `composer install` command.
-5. Run the `npm install` command.
-6. Run the `npm run dev` command.
-7. Run the `php artisan serve` command to start the app.
+1. Clone this repository.
+2. Create a `.env` file and configure the YouVerify API key.
+3. Run the `composer install` command.
+4. Run the `npm install` command.
+5. Run the `npm run dev` command.
+6. Run the `php artisan serve` command to start the app.
 
 ## Usage
 
